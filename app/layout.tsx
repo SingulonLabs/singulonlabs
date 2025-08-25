@@ -17,3 +17,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   </div>
   <nav><a href="#whitepaper">Whitepaper</a></nav>
 </header>
+<head>
+  <link rel="icon" href="/favicon.ico" />
+</head>
