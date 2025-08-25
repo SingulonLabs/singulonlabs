@@ -12,14 +12,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <img src="/orb-logo.png" alt="Singulon Logo" width="40" height="40" />
             <strong style={{ marginLeft: '10px' }}>Singulon Labs LLC</strong>
           </div>
-          <nav><a href="#whitepaper">Whitepaper</a></nav>
+          <nav>
+            <a href="#whitepaper">Whitepaper</a>
+          </nav>
         </header>
 
-        {children}
+        <main className="container">{children}</main>
 
         <footer className="container">
           <div>© {new Date().getFullYear()} Singulon Labs LLC</div>
-          <div><a href="#">Terms</a> • <a href="#">Privacy</a></div>
+          <div>
+            <a href="#">Terms</a> • <a href="#">Privacy</a>
+          </div>
         </footer>
       </body>
     </html>
