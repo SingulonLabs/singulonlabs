@@ -1,0 +1,9 @@
+:root{--bg:#0a0f14;--text:#e9f6ff;--accent:#09c7ff;--line:rgba(255,255,255,.1);--panel:rgba(255,255,255,.05)}
+body{margin:0;font-family:system-ui,Inter,sans-serif;background:var(--bg);color:var(--text)}
+a{color:var(--accent);text-decoration:none}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header,footer{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.hero{text-align:center;padding:50px 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:12px}
+.teaser{background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:12px;margin-top:40px}
