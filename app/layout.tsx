@@ -10,3 +10,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   )
 }
+<header className="container">
+  <div style={{display:'flex', alignItems:'center'}}>
+    <img src="/orb-logo.png" alt="Singulon Logo" width="40" height="40" />
+    <strong style={{marginLeft:'10px'}}>Singulon Labs LLC</strong>
+  </div>
+  <nav><a href="#whitepaper">Whitepaper</a></nav>
+</header>
